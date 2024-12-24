@@ -1,8 +1,115 @@
-body {
-  background-color: yellow !important;
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+/* Root Styles */
+body, .vfrc-message, .vfrc-system-response {
+    font-family: 'DM Sans', sans-serif !important;
+    color: #453927; /* Brown for text */
 }
 
-#chat-container {
-  border: 5px solid red !important;
-  border-radius: 20px !important;
+/* Chat Container */
+.vfrc-container {
+    border-radius: 16px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #E8E6D8; /* Off-White background */
+    padding: 10px;
+    border: none !important;
+}
+
+/* Header Styles */
+.vfrc-header {
+    background-color: #FF8E1C; /* Orange header */
+    color: #FFE3B5 !important; /* Off-White-Orange header text */
+    font-size: 18px !important;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 16px 16px 0 0;
+}
+
+/* User Messages */
+.vfrc-user-message {
+    background-color: #B5B394; /* BG2 for user messages */
+    color: #453927 !important; /* Brown text for user messages */
+    border-radius: 12px;
+    padding: 8px 15px;
+    max-width: 70%;
+    margin: 5px 10px;
+    align-self: flex-end !important;
+}
+
+/* Bot Messages */
+.vfrc-message, .vfrc-system-response {
+    background-color: #C7C1AF; /* BG1 for bot messages */
+    color: #453927 !important; /* Brown text */
+    border-radius: 12px;
+    padding: 8px 15px;
+    max-width: 70%;
+    margin: 5px 10px;
+    align-self: flex-start !important;
+}
+
+/* Input Field */
+.vfrc-input {
+    border: 1px solid #FAEAAF !important; /* Bright border */
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/* Send Button */
+.vfrc-send-button {
+    background-color: #FF8E1C !important; /* Orange */
+    color: #453927 !important; /* Brown */
+    border: none !important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Footer/Feedback Section */
+.vfrc-feedback {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.vfrc-feedback-button {
+    background-color: #f07a3b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.vfrc-feedback-button:hover {
+    background-color: #e26a32; /* Slightly darker orange */
+}
+
+/* Quick Replies */
+.vfrc-quick-replies {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.vfrc-quick-reply {
+    background-color: #f07a3b !important; /* Orange */
+    color: #ffffff !important; /* White text */
+    border-radius: 12px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.vfrc-quick-reply:hover {
+    background-color: #e26a32 !important; /* Slightly darker orange */
 }
