@@ -1,0 +1,83 @@
+//BG COLOR
+.c-ealvbK {
+    background-color: #E8E6D8 !important; /* off-white */
+} 
+
+//HEADER FONT & COLOR
+.c-kfyIxT {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 17px;
+    color: #453927 !important;
+}
+
+//TITLE FONT & COLOR
+.c-cXYoYW {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 20px;
+    font-weight: 700;
+    color: #453927 !important;
+}
+
+//SUBTITLE FONT & COLOR
+.c-eLmjZC {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #453927 !important;
+}
+
+//BOT MSG COLORS
+.c-PJLV-jueArD-from-system {
+    color: #453927;
+    background-color: #C7C1AF !important;
+    hyperlink-color: #FF8E1C !important;
+}
+
+//USR MSG COLOR
+.c-PJLV-gJqBfM-from-user {
+    color: #453927 !important;
+    background-color: #B5B394 !important;
+}
+
+//MSG FONT
+.c-gMpNkY {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+//BUTTON COLOR
+.c-bXTvXv {
+    color: #453927 !important;
+}
+
+//BUTTON FONT
+.c-jjMiVY {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+//TIMESTAMPS FONT & COLOR
+.c-bbTBUn {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E623D !important;
+}
+
+.c-eAEsei {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E623D !important;
+}
+
+//CHAT ENDED FONT & COLOR
+.c-iVkGGQ {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6E623D !important;
+}
