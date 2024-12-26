@@ -1,11 +1,3 @@
-/* Font Import */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
-
-//FONT
-body, input, textarea, select, button {
-    font-family: 'DM Sans', sans-serif !important;
-}
-
 //BG COLOR
 .c-ealvbK {
     background-color: #E8E6D8 !important; /* off-white */
@@ -13,43 +5,26 @@ body, input, textarea, select, button {
 
 //HEADER FONT & COLOR
 .c-kfyIxT {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     font-family: 'DM Sans', sans-serif !important;
     font-size: 17px;
-    font-weight: var(--fontWeights-2);
-    line-height: var(--lineHeights-2);
     color: #453927 !important;
 }
 
 //TITLE FONT & COLOR
 .c-cXYoYW {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 100%;
-    margin: 0px;
     font-family: 'DM Sans', sans-serif !important;
     font-size: 20px;
     font-weight: 700;
-    line-height: var(--lineHeights-3);
     color: #453927 !important;
 }
 
 //SUBTITLE FONT & COLOR
 .c-eLmjZC {
-    display: -webkit-box;
-    margin: 0px;
     font-family: 'DM Sans', sans-serif !important;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     color: #453927 !important;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    word-break: break-word;
 }
 
 //BOT MSG COLORS
@@ -63,77 +38,47 @@ body, input, textarea, select, button {
 .c-PJLV-gJqBfM-from-user {
     color: #453927 !important;
     background-color: #B5B394 !important;
-    white-space: break-spaces;
 }
 
 //MSG FONT
 .c-gMpNkY {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 10px 14px;
-    border-radius: var(--radii-1);
     font-family: 'DM Sans', sans-serif !important;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
-    overflow-wrap: anywhere;
 }
 
 //BUTTON COLOR
 .c-bXTvXv {
-    min-height: var(--sizes-md);
     color: #453927 !important;
-    transition: background-color 150ms;
-    padding: 10px 14px;
-    box-sizing: border-box;
-    white-space: break-spaces;
 }
 
 //BUTTON FONT
 .c-jjMiVY {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 14px;
-    border-radius: var(--radii-1);
     font-family: 'DM Sans', sans-serif !important;
     font-size: 15px;
     font-weight: 700;
-    line-height: 20px;
-    white-space: nowrap;
-    overflow-wrap: anywhere;
 }
 
 //TIMESTAMPS FONT & COLOR
 .c-bbTBUn {
-    display: flex;
-    justify-content: center;
     font-family: 'DM Sans', sans-serif !important;
     font-size: 12px;
     font-weight: 400;
-    line-height: 20px;
     color: #6E623D !important;
-    padding-bottom: var(--space-3);
 }
 
 .c-eAEsei {
     font-family: 'DM Sans', sans-serif !important;
     font-size: 12px;
     font-weight: 400;
-    line-height: 17px;
     color: #6E623D !important;
-    white-space: nowrap;
-    flex-shrink: 0;
 }
 
 //CHAT ENDED FONT & COLOR
 .c-iVkGGQ {
-    display: flex;
-    justify-content: center;
     font-family: 'DM Sans', sans-serif !important;
     font-size: 12px;
     font-weight: 400;
-    line-height: 20px;
     color: #6E623D !important;
 }
 
