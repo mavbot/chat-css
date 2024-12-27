@@ -7,7 +7,7 @@
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
             assistant: {
-          	stylesheet: "https://raw.githubusercontent.com/mavbot/chat-css/refs/heads/main/chatbot-css-3"
+          	stylesheet: "https://raw.githubusercontent.com/mavbot/chat-css/refs/heads/main/styles.css"
           	}
         });
       }
